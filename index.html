@@ -1,0 +1,72 @@
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutina Gimnasio Guerrero</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- HEADER -->
+        <header class="header">
+            <div class="header-content">
+                <h1>💪 RUTINA GIMNASIO GUERRERO</h1>
+                <p>Push/Pull/Legs • Quemar Grasa • Ganar Fuerza • 6 Días/Semana</p>
+            </div>
+        </header>
+
+        <!-- SELECTOR DE DÍAS -->
+        <nav class="day-selector">
+            <button class="day-btn active" data-day="lunes">LUNES<br><span>Push A</span></button>
+            <button class="day-btn" data-day="martes">MARTES<br><span>Pull A</span></button>
+            <button class="day-btn" data-day="miercoles">MIÉRCOLES<br><span>Legs A</span></button>
+            <button class="day-btn" data-day="jueves">JUEVES<br><span>Push B</span></button>
+            <button class="day-btn" data-day="viernes">VIERNES<br><span>Pull B</span></button>
+            <button class="day-btn" data-day="sabado">SÁBADO<br><span>Legs B</span></button>
+            <button class="day-btn descanso" data-day="domingo">DOMINGO<br><span>Descanso</span></button>
+        </nav>
+
+        <!-- CONTENIDO DINÁMICO DE CADA DÍA -->
+        <main id="workout-content">
+            <!-- El contenido se carga dinámicamente con JS -->
+        </main>
+
+        <!-- FOOTER CON INFORMACIÓN -->
+        <footer class="info-section">
+            <div class="info-card">
+                <h3>🔥 ¿Por qué Push/Pull/Legs?</h3>
+                <ul>
+                    <li><strong>Frecuencia óptima:</strong> Cada músculo se entrena 2 veces por semana, ideal para hipertrofia natural</li>
+                    <li><strong>Recuperación inteligente:</strong> Los músculos que trabajan juntos descansan juntos</li>
+                    <li><strong>Eficiencia máxima:</strong> Sesiones de 60-75 min sin sobreentrenamiento</li>
+                    <li><strong>Cardio estratégico:</strong> Después de pesas para maximizar quema de grasa</li>
+                </ul>
+            </div>
+            
+            <div class="info-card">
+                <h3>⚡ Principios de Progresión</h3>
+                <ul>
+                    <li><strong>Semanas 1-2:</strong> Aprende la técnica, usa rango bajo de repeticiones</li>
+                    <li><strong>Semanas 3-4:</strong> Incrementa peso gradualmente 2.5-5kg</li>
+                    <li><strong>Semanas 5-6:</strong> Alcanza rango alto de reps, añade 1 serie extra</li>
+                    <li><strong>Semana 7:</strong> Deload (reduce peso 30%, mantén técnica perfecta)</li>
+                </ul>
+            </div>
+
+            <div class="info-card warning">
+                <h3>⚠️ Señales de Sobreentrenamiento</h3>
+                <ul>
+                    <li>Frecuencia cardíaca en reposo +10 latidos sobre tu normal</li>
+                    <li>Dolor articular persistente (no muscular)</li>
+                    <li>Insomnio o sueño inquieto continuo</li>
+                    <li>Pérdida total de motivación por 3+ días</li>
+                    <li>Rendimiento estancado o bajando 2 semanas seguidas</li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
